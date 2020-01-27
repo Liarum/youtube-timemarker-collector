@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
    
-    "name": "pinned tube",
-    "description": "youtube timepicker collector",
+    "name": "youtube timemarker collector",
+    "description": "This extension helps youtube users sharing efficiently each other's memorable moment in youtube vedio from time picking function",
     "version": "1.0",
    
     "browser_action": {
@@ -10,6 +10,7 @@
       "default_popup": "popup.html"
     },
     "permissions": [
-      "activeTab"
+      "activeTab",
+      "storage"
     ]
   }
